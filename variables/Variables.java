@@ -24,5 +24,41 @@ public class Variables {
         System.out.println(b1);
         System.out.println(su);
         System.out.println(boo);
+
+        //********************************//
+
+        System.out.println("Sum : " + b + b1);
+        System.out.println("Sum : " + (b + b1));
+
+        int x = 2 + 3;
+        int x1 = x + b;
+        System.out.println(x1);
+        double dd1 = 7;
+        double dd2 = 3;
+        double ddw = dd1 / dd2;
+        System.out.println(ddw);
+
+        int r = x1 % x;
+        System.out.println(r);
+
+        int i1 = 10;
+        int i2 = 20;
+        int i3 = 30;
+        int i4 = 40;
+        System.out.println(i1++);
+        System.out.println(++i2);
+        System.out.println(i3--);
+        System.out.println(--i4);
+        System.out.println(i1++);
+
+        x += 5; // x = x + 5
+        x -= 5;
+        x /= 5;
+        x *= 5;
+        x %= 5;
+        System.out.println("-------------");
+        System.out.println(x);
+
+
     }
 }
